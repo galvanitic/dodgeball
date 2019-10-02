@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100 vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(249, 255, 255);
+  li {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 12px;
+    align-items: center;
+  }
+  h1 {
+    color: firebrick;
+    font-family: 'Mansalva', cursive;
+    font-size: 7vw;
+  }
+  h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+  div {
+    width: 85%;
+    min-height: 10vh;
+    padding: 3% 10%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .people-div {
+    background-color: slategray;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    h4 {
+      color: rgb(59, 72, 85);
+    }
+    .list-people {
+      width: 20%;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 100%;
+      font-weight: bold;
+      padding: 5px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 5%;
+      background-color: khaki;
+      color: rgb(143, 137, 83);
+      transition: all .5s;
+    }
+    .list-people:hover {
+      background-color: rgb(252, 242, 158);
+      box-shadow: 0px 2px 11px 0px rgb(80, 91, 102);
+      transform: translateY(-2px);
+    }
+    ul {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      li {
+        list-style: none;
+        text-align: left;
+        padding: 1% 0;
+        display: flex;
+        flex-direction: row;
+        
+        width: 100%;
+        button {
+          width: 25px;
+          height: 25px;
+          border-radius: 100px;
+          border: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 3%;
+          color: rgb(76, 87, 99);
+          transition: all .5s;
+        }
+        button:hover {
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+  .players-div {
+    background-color: darkcyan;
+    border-radius: 0 0 0 0;
+    h4 {
+      color: rgb(0, 82, 82);
+    }
+    ul {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      li {
+        list-style: none;
+        text-align: left;
+        padding: 1% 0;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        button {
+          width: 25px;
+          height: 25px;
+          border-radius: 100px;
+          border: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 3%;
+          color: rgb(76, 87, 99);
+          transition: all .5s;
+        }
+        button:hover {
+          transform: rotate(90deg);
+        }
+        .blueBttn {
+          color: darkslateblue;
+        }
+        .redBttn {
+          color: crimson;
+        }
+      }
+    }
+  }
+  .teams {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0 0 15px 15px;
+    background-color: khaki;
+  }
+  .blue-div & .red-div {
+    width: 50%;
+  }
+  .blue-div {
+    background-color: darkslateblue;
+    border-radius: 0 0 15px 0;
+    h4 {
+      color: rgb(42, 36, 78);
+    }
+    ul {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      li {
+        list-style: none;
+        text-align: left;
+        padding: 1% 0;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+    }
+  }
+  .red-div {
+    background-color: crimson;
+    border-radius: 0 0 0 15px;
+    h4 {
+      color: rgb(134, 12, 37);
+    }
+    ul {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      li {
+        list-style: none;
+        text-align: left;
+        padding: 1% 0;
+        display: flex;
+        flex-direction: row;
+        
+        width: 100%;
+      }
+    }
+  }
+}

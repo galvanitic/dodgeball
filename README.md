@@ -6,3 +6,6 @@ We are in need of a sorting and organizing app for our community dodge ball leag
 
 
 # Code Plan
+Upon click of "make player"
+add the person to players array, add the key-value "player: new" and remove them from people object
+if blue clicked, add player to bluePlayers array, remove the player from the player array. Extend the keys "color" and "mascot".
